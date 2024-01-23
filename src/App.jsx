@@ -19,7 +19,7 @@ const TodoList = () => {
 
   return (
     <div>
-      <h2>Todo List</h2>
+      <h2>React Todo List</h2>
       <ul>
         {todos.map((todo, index) => (
           <li key={index}>
